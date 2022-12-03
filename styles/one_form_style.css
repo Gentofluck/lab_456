@@ -1,0 +1,121 @@
+.ret_div{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    max-width: 794px;
+    margin: auto;
+}
+
+.name{
+    margin: 0 0 20px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+.description, .size{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    color:#AE7C78;
+}
+.size{
+    margin:24px 0;
+}
+.price{
+    margin: 0 0 64px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+.photo{
+    max-height: 420px;
+    object-fit: contain;
+    max-width: 400px;
+}
+.popular_txt{
+    width: 387px;
+    text-align: left;
+    margin-right: auto;
+}
+.but{
+    max-width: 285px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #D89999;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+.admin_panel{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.edit{
+    background-color: rgb(52, 74, 36);
+}
+.delete{
+    background-color: rgb(82, 42, 42);
+}
+.add{
+    background-color: rgb(29, 47, 102);
+}
+.admin_but{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    min-width: 125px;
+    padding: 1px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    border: 0px;
+}
+.popular_one_bouquet{
+    max-width: 794px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popular_one_bouquet:not(:last-of-type){
+    margin-bottom: 80px;
+}
+.view_all{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+@media screen and (max-width:800px){
+    .ret_div{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .popular_txt{
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

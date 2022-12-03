@@ -1,0 +1,19 @@
+.gray_filter{
+    filter: opacity(40%);
+}
+.error_404{
+    text-align: center;
+    margin-top: 24px;
+    color: #AE7C78;
+    background-image: url('../img/exit.png');
+}
+.close{
+    background-image: url('../img/exit.png');
+    width:500px;
+    height: 500px;
+}
+.error_div{
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+}

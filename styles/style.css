@@ -1,0 +1,252 @@
+.gray_filter{
+    filter: opacity(40%);
+}
+.color_beige{
+    color:#AE7C78;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    margin-bottom: 117px;
+}
+.main_txt{
+    max-width: 384px;
+}
+.popular_h2{
+    margin: 0 0 36px 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+.h4_name{
+    margin: 0 0 8px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+#h1{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: #AE7C78;
+}
+#main_img{
+    background-color: #AE7C78;
+    max-width: 100%;
+    border-radius: 12px;
+}
+.head_txt{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+}
+.h2_white{
+    letter-spacing: 0.02em;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.h3_txt{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.simple_txt{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+.original_txt{
+    margin-top: 0px;
+    margin-bottom: 64px;
+}
+.main_but{
+    max-width: 285px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #D89999;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.benifits{
+    margin-bottom: 53px;
+}
+.space_between{
+    display: flex;
+    justify-content: space-between;
+}
+#delivery_icon{
+    background-image: url('../img/delivery.svg');
+    width: 82px;
+    min-width: 82px;
+    height: 52px;
+}
+#flower_icon{
+    background-image: url('../img/flower.svg');
+    width: 33.87px;
+    height: 52px;
+    min-width: 33.87px;
+}
+#photo_icon{
+    background-image: url('../img/photo.svg');
+    width: 58.6px;
+    height: 52px;
+    min-width: 58.6px;
+}
+
+#sale_bouquet{
+    background-image: url('../img/sale_bouquet.png');
+    width: 590px;
+    height: 391px;
+    background-color: #AE7C78;
+}
+.benifit_txt{
+    max-width: 285px;
+    margin-left: 20px;
+}
+.benefit_element{
+    display: flex;
+}
+.popular{
+    max-width: 794px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 94px;
+}
+.sale_txt{
+    width: 387px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sale{
+    display: flex;
+    justify-content: end;
+    background-color: #AE7C78;
+    margin-bottom: 93px;
+}
+.simple_txt_white{
+    color: #FFFFFF;
+    margin: 0%;
+}
+.one_review{
+    max-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reviews{
+    border:1px solid #AE7C78;
+    text-align: center;
+    margin-bottom: 72.22px;
+}
+.reviews_txt{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 64px;
+}
+.admin_but{
+    min-width: 125px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.admin_panel{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.edit{
+    background-color: rgb(52, 74, 36);
+}
+.delete{
+    background-color: rgb(82, 42, 42);
+}
+.add{
+    background-color: rgb(29, 47, 102);
+}
+
+@media screen and (max-width:1180px) {
+    .space_between{
+        display: block;
+    }
+    .benefit_element{
+        justify-content: center;
+    }
+    #main_img{
+        display: block;
+    }
+    .main_txt, .benefit_element, #main_img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .main_txt>.main_but{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sale_bouquet{
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 100%;
+        width: auto;
+    }
+    .sale{
+        display: block;
+        max-width: 590px;
+    }
+}
+@media screen and (max-width:800px) {
+    .reviews_txt{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #img_popular, .one_review{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .one_review{
+        margin-bottom: 40px;
+    }
+    .reviews{
+        max-width: 590px;
+    }
+    .main_but{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 606px){
+    #sale_bouquet{
+        width: auto;
+        height: calc((100vw - 16px)*391/590);
+    }
+}

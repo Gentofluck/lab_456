@@ -1,0 +1,12 @@
+.input_admin_form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 2%;
+    margin: 35vh auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.simple_input{
+    margin-bottom: 10px;
+}

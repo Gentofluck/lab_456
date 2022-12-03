@@ -1,0 +1,43 @@
+.update_form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_update{
+    resize: none;
+    margin-bottom: 20px;
+}
+.alert{
+    left:0;
+    top:0;
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.alert:not(:last-child){
+    align-items: center;
+}
+.exit{
+    width:30px;
+    height:30px;
+    background-color: white;
+    background-image: url('../img/exit.png');
+    border: 0px;
+    background-size: cover;
+    padding: 0%;
+}
+#photo{
+    display: none;
+}
+.label_photo{
+    border: solid rgb(112, 112, 112) 1px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px 6px;
+    background-color: rgb(240, 240, 240);
+}
