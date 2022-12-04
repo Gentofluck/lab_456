@@ -38,13 +38,11 @@ let fileSelector = document.getElementById('photo');
                     return true;
                 case '.png':
                     return true;
-                case '.svg':
-                    return true;
                 default:
                     if (photo.substr(-5, 5)=='.jpeg'){
                         return true;
                     }
-                    alert ('Фото должно быть в формате .jpg, .png, .jpeg или .svg');
+                    alert ('Фото должно быть в формате .jpg, .png или .jpeg');
                     return false;
             }
         }
